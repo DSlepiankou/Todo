@@ -5,7 +5,7 @@ const TodoList = ({ todos }) => {
 
     const elements = todos.map((item) => {
         return (
-            <li>
+            <li key={item.id}>
                 <TodoListItem {...item} />
             </li>
         );
@@ -14,7 +14,8 @@ const TodoList = ({ todos }) => {
     return (
         <ul>
             {elements}
-        </ul>);
+        </ul>
+        );
 };
 
 export default TodoList;
