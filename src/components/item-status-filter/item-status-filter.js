@@ -3,11 +3,11 @@ import './item-status-filter.css';
 
 const ItemStatusFilter = () => {
     return (
-      <span className="item-status-filter">
-        <button className="btn btn-outline-info item-status-filter" type="button">All</button>
-        <button className="btn btn-outline-info item-status-filter" type="button">Active</button>
-        <button className="btn btn-outline-info item-status-filter" type="button">Done</button>
-      </span>  
+      <div className="btn-group">
+        <button className="btn btn-outline-info" type="button">All</button>
+        <button className="btn btn-outline-secondary" type="button">Active</button>
+        <button className="btn btn-outline-secondary" type="button">Done</button>
+      </div>  
     );
 }
 
