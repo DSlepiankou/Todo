@@ -1,6 +1,6 @@
 {
   "name": "todo",
-  "homepage": "https://dslepiankou.github.io/Todo/public/",
+  "homepage": "https://dslepiankou.github.io/Todo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
